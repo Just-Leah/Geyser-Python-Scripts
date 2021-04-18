@@ -11,10 +11,10 @@ outputType = input("Please specify the output type. Enter a single number out of
 if outputType == "1":
     uuid = uuidResponse[16+len(gamertag):]
     print("UUID is "+uuid)
-    output = open(os.path.dirname(os.path.abspath(__file__))+"\hyphenhex.txt", "w")
+    output = open(os.path.dirname(os.path.abspath(__file__))+"\hyphenhex.txt", "a")
     output.write("\n\nRequested UUID of \""+gamertag+"\":\n")
     output.write(uuid)
     output.close
-    print("UUID has been printed to output file")
+    print("UUID has been printed to output file (at ./uuid/hyphenhex.txt)")
 
 sys.exit(0)
