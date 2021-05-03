@@ -6,4 +6,4 @@ You can use `.bat` to quickly run the scripts without messing around with the co
 
 ## Currently includes
 
-- A generator that takes the gamertag of a player and makes a file with it in. I plan to make this with the ability to generate a copy paste example of adding the specified player to the `whitelist.json`
+- A read and write `whitelist.json` parser with floodgate support for geyser.

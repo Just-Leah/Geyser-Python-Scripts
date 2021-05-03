@@ -1,0 +1,5 @@
+All known info is as follows:
+Platform request = Java
+Username requested = test
+Tried URL = https://api.mojang.net/test
+Error occured while attempting to fetch User UUID, please check the above URL to see if the API is online
